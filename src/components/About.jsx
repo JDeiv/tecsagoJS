@@ -9,7 +9,7 @@ const About = () => {
       <div className="lg:grid lg:grid-cols-8 flex flex-col items-center justify-center gap-4">
         <div className="col-span-4  lg:w-auto lg:h-auto md:w-[350px] w-[300px] mx-4">
           <img
-            src="images/tec2.JPG"
+            src="images/tec2.webp"
             alt="tecnico"
             className="object-cover lg:ml-6 rounded-lg w-full"
           />
@@ -32,7 +32,7 @@ const About = () => {
           </Card>
 
           <Card className="m-4 bg-yellow-50">
-            <div className=" bg-primary  md:w-1/2 lg:w-1/2 p-1 rounded-tr-full lg:mx-1 mx-4">
+            <div className=" bg-secondary  md:w-1/2 lg:w-1/2 p-1 rounded-tr-full lg:mx-1 mx-4">
               <h1 className="text-2xl font-bold">Nuestra Gente</h1>
             </div>
             <p className="my-4 lg:mx-1 mx-4">

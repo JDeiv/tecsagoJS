@@ -11,13 +11,15 @@ export default withMT({
   theme: {
     extend: {
       colors: {
-        primary: "#706FE5",
-        secondary: "#D49A3F",
+        primary: "#2586E0",
+        secondary: "#F1B62E",
         footer: "#2E3E5C",
       },
       backgroundImage: {
         lineas1: "url('/images/tecno1.jpg')",
-        watsap: "url(/images/watsap.png)"
+        watsap: "url(/images/watsap.png)",
+        logo: "url('/images/tecsago1.webp')",
+        
 
       },
       

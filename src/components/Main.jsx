@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <section>
       <div className=" bg-gray-50 p-8">
-        <div className="border bg-primary w-2/5 md:w-1/6 lg:w-2/12 p-1 rounded-tr-full">
+        <div className="border bg-secondary w-2/5 md:w-1/6 lg:w-2/12 p-1 rounded-tr-full">
           <h3 className="uppercase text-base lg:text-xl text-white lg:mx-1  font-bold">Tecsago</h3>
         </div>
         <div className="px-4  mt-4">
@@ -18,7 +18,7 @@ const Main = () => {
       </div>
 
       <div className=" bg-gray-50 p-8">
-        <div className="border bg-primary w-2/5 md:w-1/6 lg:w-2/12 p-1 rounded-tr-full">
+        <div className="border bg-secondary w-2/5 md:w-1/6 lg:w-2/12 p-1 rounded-tr-full">
           <h3 className="uppercase text-base lg:text-xl text-white lg:mx-1 font-bold">Servicios</h3>
         </div>
         <div className="px-4 mt-4">
@@ -34,10 +34,10 @@ const Main = () => {
         Con la Confianza de grandes Companías
       </h1>
       <div className="flex flex-col md:flex-row items-center md:justify-center flex-wrap gap-20">
-        <img src="images/bancop.png" className="w-40 rounded-lg shadow-md" />
-        <img src="images/arcac.jpg" className="w-40 rounded-lg shadow-md" />
-        <img src="images/tonicorp.jpg" className="w-40 rounded-lg shadow-md" />
-        <img src="images/udla.jpg" className="w-40 rounded-lg shadow-md" />
+        <img src="images/bancop.webp" className="w-40 rounded-lg shadow-md" />
+        <img src="images/arcac.webp" className="w-40 rounded-lg shadow-md" />
+        <img src="images/tonicorp.webp" className="w-40 rounded-lg shadow-md" />
+        <img src="images/udla.webp" className="w-40 rounded-lg shadow-md" />
         <img src="images/highs.webp" className="w-40 rounded-lg shadow-md" />
       </div>
     </div>

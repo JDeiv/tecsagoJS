@@ -164,7 +164,7 @@ const Services = () => {
       </div>
       <div className="col-span-4 p-2 lg:w-auto lg:h-auto md:w-[350px] w-[300px]">
         <img
-          src="images/tec1.JPG"
+          src="images/tec1.webp"
           alt="tecnico"
           className="object-contain lg:ml-6 rounded-lg"
         />

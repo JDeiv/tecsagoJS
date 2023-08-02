@@ -8,6 +8,7 @@ import {
   RiTwitterLine,
   RiGithubLine,
 } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -83,12 +84,9 @@ const Footer = () => {
           >
             Privacy policy
           </a>
-          <button
-            type="button"
-            className="font-semibold py-2 px-6 bg-primary text-white rounded-xl"
-          >
-            Contact Us
-          </button>
+          {/* <Link to='contact'><button className="w-full xl:w-auto bg-primary text-white py-2 px-8 rounded-xl text-xl">
+              Contáctanos
+            </button></Link> */}
         </nav>
       </div>
       <div className="mt-20">

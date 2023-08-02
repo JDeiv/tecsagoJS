@@ -19,7 +19,7 @@ import {
   RiStarFill,
 } from "react-icons/ri";
 import Main from "./Main";
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -41,9 +41,9 @@ const Hero = () => {
             interrogantes que se plantea el desarrollo de sus proyectos.
           </p>
           <div className="flex flex-col md:flex-row items-center gap-4">
-            <button className="w-full xl:w-auto bg-primary text-white py-2 px-8 rounded-xl text-xl">
+            <Link to='contact'><button className="w-full xl:w-auto bg-primary text-white py-2 px-8 rounded-xl text-xl">
               Contáctanos
-            </button>
+            </button></Link>
           </div>
         </div>
       </div>
@@ -57,27 +57,27 @@ const Hero = () => {
         <Carousel className="md:h-[400px] lg:h-[600px] h-[300px] ">
           <img
             alt="..."
-            src="images/tec1.JPG"
+            src="images/tec1.webp"
             className="w-[250px] h-[250px] lg:w-auto lg:h-[90%] md:w-[375px] md:h-[375px] object-contain  rounded-2xl shadow-lg shadow-primary"
           />
           <img
             alt="..."
-            src="images/tec2.JPG"
+            src="images/tec2.webp"
             className="w-[250px] h-[250px] lg:w-auto lg:h-[90%] md:w-[375px] md:h-[375px] object-contain  rounded-2xl shadow-lg shadow-primary"
           />
           <img
             alt="..."
-            src="images/tec3.JPG"
+            src="images/tec3.webp"
             className="w-[250px] h-[250px] lg:w-auto lg:h-[90%] md:w-[375px] md:h-[375px] object-contain  rounded-2xl shadow-lg shadow-primary"
           />
           <img
             alt="..."
-            src="images/tec4.JPG"
+            src="images/tec4.webp"
             className="w-[250px] h-[250px] lg:w-auto lg:h-[90%] md:w-[375px] md:h-[375px] object-contain  rounded-2xl shadow-lg shadow-primary"
           />
           <img
             alt="..."
-            src="images/tec5.JPG"
+            src="images/tec5.webp"
             className="w-[250px] h-[250px] lg:w-auto lg:h-[90%] md:w-[375px] md:h-[375px] object-contain  rounded-2xl shadow-lg shadow-primary"
           />
         </Carousel>

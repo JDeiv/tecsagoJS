@@ -19,21 +19,21 @@ const Products = () => {
   const refS = useRef(null);
   const refV = useRef(null);
   const handleClick = () => {
-    ref.current?.scrollIntoView({behavior: 'smooth'})
-  }
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
   const clickServer = () => {
-    refS.current?.scrollIntoView({behavior: 'smooth'})
-  }
+    refS.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
   const clickCams = () => {
-    refV.current?.scrollIntoView({behavior: 'smooth'})
-  }
-  
+    refV.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="w-[100%]">
-      <div className="bg-lineas1 lg:h-[60vh] h-[30vh]  bg-cover flex justify-center items-center">
-        <h1 className="text-center font-bold text-8xl"></h1>
+      <div className="bg-[url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80')] lg:h-[60vh] h-[30vh]  bg-cover flex justify-center items-center">
+        <h1 className="text-center font-bold text-8xl bold  "></h1>
       </div>
       <div className="grid md:grid-cols-3 gap-4 lg:gap-6 px-2 m-2 justify-center items-center">
         <Card className="m-6  w-72 flex items-center justify-center">
@@ -98,8 +98,11 @@ const Products = () => {
           </CardFooter>
         </Card>
       </div>
-{/* ---------------------------------------------------------------------------- */}
-      <div ref={ref} className="grid lg:grid-cols-4 gap-4 mx-20 justify-center items-center">
+      {/* ---------------------------------------------------------------------------- */}
+      <div
+        ref={ref}
+        className="grid lg:grid-cols-4 gap-4 mx-20 justify-center items-center"
+      >
         <Card className="relative grid h-[20rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center">
           <CardHeader
             color="transparent"
@@ -115,7 +118,6 @@ const Products = () => {
             >
               Laptops
             </Typography>
-            
           </CardBody>
         </Card>
 
@@ -134,7 +136,6 @@ const Products = () => {
             >
               Clones
             </Typography>
-            
           </CardBody>
         </Card>
 
@@ -153,7 +154,6 @@ const Products = () => {
             >
               Componentes
             </Typography>
-            
           </CardBody>
         </Card>
         <Card className="relative grid h-[20rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center">
@@ -171,13 +171,15 @@ const Products = () => {
             >
               Impresoras
             </Typography>
-            
           </CardBody>
         </Card>
       </div>
 
       {/* ---------------------------------------------------------------------------- */}
-      <div ref={refS} className="grid lg:grid-cols-3 gap-4 mx-20 justify-center items-center mt-16">
+      <div
+        ref={refS}
+        className="grid lg:grid-cols-3 gap-4 mx-20 justify-center items-center mt-16"
+      >
         <Card className="relative grid h-[20rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center">
           <CardHeader
             color="transparent"
@@ -191,9 +193,8 @@ const Products = () => {
               color="white"
               className="mb-6 font-medium  leading-[1.5]"
             >
-              Servidores 
+              Servidores
             </Typography>
-            
           </CardBody>
         </Card>
 
@@ -210,9 +211,8 @@ const Products = () => {
               color="white"
               className="mb-6 font-medium  leading-[1.5]"
             >
-              Routers - Networking 
+              Routers - Networking
             </Typography>
-            
           </CardBody>
         </Card>
 
@@ -229,17 +229,17 @@ const Products = () => {
               color="white"
               className="mb-6 font-medium  leading-[1.5]"
             >
-              Workstations 
+              Workstations
             </Typography>
-            
           </CardBody>
         </Card>
-
-        
       </div>
 
       {/* ---------------------------------------------------------------------------- */}
-      <div ref={refV} className="grid lg:grid-cols-3 gap-4 mx-20 justify-center items-center mt-16">
+      <div
+        ref={refV}
+        className="grid lg:grid-cols-3 gap-4 mx-20 justify-center items-center mt-16"
+      >
         <Card className="relative grid h-[20rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center">
           <CardHeader
             color="transparent"
@@ -253,9 +253,8 @@ const Products = () => {
               color="white"
               className="mb-6 font-medium  leading-[1.5]"
             >
-              Cámaras de vigilancia 
+              Cámaras de vigilancia
             </Typography>
-            
           </CardBody>
         </Card>
 
@@ -274,7 +273,6 @@ const Products = () => {
             >
               HikCentral
             </Typography>
-            
           </CardBody>
         </Card>
 
@@ -293,23 +291,26 @@ const Products = () => {
             >
               Cercado Eléctrico
             </Typography>
-            
           </CardBody>
         </Card>
 
-       
-        <Tooltip content="COTIZAR PRODUCTOS">
-              <Avatar
-                size="xl"
-                variant="circular"
-                className="cursor-pointer shadow fixed bottom-3 right-14"
-                src="images/watsap.png"
-              />
+        
+          <a
+            href="https://wa.link/woekuf"
+            target="_blank"
+            className="hover:text-blue-500"
+          >
+            <Tooltip content="COTIZAR PRODUCTOS">
+            <Avatar
+              size="xl"
+              variant="circular"
+              className="cursor-pointer shadow fixed bottom-3 right-14"
+              src="images/watsap.png"
+            />
             </Tooltip>
+          </a>
         
       </div>
-      <div>2</div>
-      <div>3</div>
     </div>
   );
 };
