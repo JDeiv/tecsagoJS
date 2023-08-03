@@ -16,7 +16,7 @@ export default withMT({
         footer: "#2E3E5C",
       },
       backgroundImage: {
-        lineas1: "url('/images/tecno1.jpg')",
+        lineas1: "url('/images/lineas1.png')",
         watsap: "url(/images/watsap.png)",
         logo: "url('/images/tecsago1.webp')",
         
