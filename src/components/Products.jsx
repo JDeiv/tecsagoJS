@@ -31,9 +31,93 @@ const Products = () => {
   };
 
   return (
-    <div className="w-[100%]">
-      <div className="bg-[url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80')] lg:h-[60vh] h-[30vh]  bg-cover flex justify-center items-center">
-        <h1 className="text-center font-bold text-8xl bold  "></h1>
+    <div className="w-[100%] mt-8">
+      <div>
+      <div className="relative overflow-hidden bg-white">
+      <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
+        <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+          <div className="sm:max-w-lg">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              Los productos que TU necesitas
+            </h1>
+            <p className="mt-4 text-xl text-gray-500">
+            Tenemos los mejores precios y  productos en tecnología para ti  
+            </p>
+          </div>
+          <div>
+            <div className="mt-10">
+              {/* Decorative image grid */}
+              <div
+                aria-hidden="true"
+                className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
+              >
+                <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+                  <div className="flex items-center space-x-6 lg:space-x-8">
+                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+                        <img
+                          src="https://image.benq.com/is/image/benqco/ex3410r-front?$ResponsivePreset$&fmt=png-alpha"
+                          alt=""
+                          className="h-full w-full object-contain bg-gray-100 "
+                        />
+                      </div>
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08529183.png"
+                          alt=""
+                          className="h-full w-full object-contain"
+                        />
+                      </div>
+                    </div>
+                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="images/mouse.webp"
+                          alt=""
+                          className="h-full w-full object-cover object-center"
+                        />
+                      </div>
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="images/server.webp"
+                          alt=""
+                          className="h-full w-full object-contain bg-gray-100"
+                        />
+                      </div>
+                      <div className="h-64 w-44 overflow-hidden rounded-lg ">
+                        <img
+                          src="https://assets.nvidia.partners/images/png/ASUS-Dual-GeForce-RTX-4070.png"
+                          alt=""
+                          className="h-full w-full  object-center bg-gray-100 "
+                        />
+                      </div>
+                    </div>
+                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="https://www.lenovo.com/medias/ThinkCentre.png?context=bWFzdGVyfHJvb3R8MTk1OTB8aW1hZ2UvcG5nfGg3Mi9oYTUvMTM4NDU0OTc0NzkxOTgucG5nfDg3MjM5NTExNzI4YzkwZjdjOGJjNDZiYmEyYzA5ZTUxMTY5OTgxMDc3OTU5YTVmZmYyYTk1OGZiODlhY2RmM2I&w=1920"
+                          alt=""
+                          className="h-full w-full object-cover"
+                        />
+                      </div>
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="images/camaras.webp"
+                          alt=""
+                          className="h-full w-full object-contain bg-gray-50"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
       </div>
       <div className="grid md:grid-cols-3 gap-4 lg:gap-6 px-2 m-2 justify-center items-center">
         <Card className="m-6  w-72 flex items-center justify-center">
